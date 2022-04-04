@@ -18,7 +18,7 @@ for number in data:
     squared_list.append(a)
 sum=0
 for i in squared_list:
-    sum=sum+1
+    sum=sum+i
 result=sum/(len(data)-1)
 standardDeviation=math.sqrt(result)
 print(standardDeviation)
